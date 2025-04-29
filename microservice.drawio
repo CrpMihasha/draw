@@ -17,19 +17,14 @@
             <mxPoint x="560" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aaWqAWN33BDMKdn_iNdA-144" value="代理&lt;div&gt;Nginx、&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aaWqAWN33BDMKdn_iNdA-144" value="软件代理&lt;div&gt;Nginx、&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="565" width="100" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="aaWqAWN33BDMKdn_iNdA-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aaWqAWN33BDMKdn_iNdA-147">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="780" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="aaWqAWN33BDMKdn_iNdA-147" value="网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="620" width="120" height="60" as="geometry" />
+        <mxCell id="aaWqAWN33BDMKdn_iNdA-147" value="网关&lt;div&gt;spring cloud alibaba gateway&lt;/div&gt;&lt;div&gt;spring cloud gateway&lt;/div&gt;&lt;div&gt;ingress&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="620" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aaWqAWN33BDMKdn_iNdA-149" value="服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="1000" y="470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
