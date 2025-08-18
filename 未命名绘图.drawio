@@ -1,18 +1,9 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.15">
-  <diagram name="第 1 页" id="wm-oJ_bu9WFmWN1kCB3R">
-    <mxGraphModel dx="2253" dy="1920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="第 1 页" id="V_MHZON_t64FPjohmSPm">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iG6OBYmrjPWcgJDg7lR7-1" value="API GATE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iG6OBYmrjPWcgJDg7lR7-2" value="graph TD&#xa;    A[API Gateway] --&gt; B[挂号核心服务]&#xa;    A --&gt; C[号源管理服务]&#xa;    A --&gt; D[支付对账服务]&#xa;    A --&gt; E[AI分诊服务]&#xa;    B --&gt; F[患者档案服务]&#xa;    C --&gt; G[排班规则引擎]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="240" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="iG6OBYmrjPWcgJDg7lR7-3" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 14px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif&quot;&gt;以下是为2025年智慧医院设计的门诊挂号Java服务架构方案，结合微服务、云原生及AI技术趋势，采用模块化设计确保高并发、高可用性：&lt;br/&gt; &lt;br/&gt;---&lt;br/&gt; &lt;br/&gt;一、系统架构设计&lt;br/&gt;1. 技术栈选型 &lt;br/&gt;| 层级        | 技术方案                          | 2025年技术亮点                 |&lt;br/&gt;|-------------|-----------------------------------|-------------------------------|&lt;br/&gt;| 前端    | Vue3+TypeScript + 微信小程序      | 语音挂号交互、数字人导诊       |&lt;br/&gt;| 网关    | Spring Cloud Gateway + OAuth2.1   | 虹膜识别身份认证               |&lt;br/&gt;| 服务端  | Spring Boot 3.2 + JDK21           | 虚拟线程(Loom)支持百万级并发   |&lt;br/&gt;| 数据库  | PostgreSQL 18 + TimescaleDB       | 时序数据存储挂号流量监控       |&lt;br/&gt;| 中间件  | Kafka 3.6 + Redis 7.2             | 实时号源状态广播               |&lt;br/&gt;| AI集成  | TensorFlow Lite + 医疗大模型      | 智能分诊推荐(准确率≥95%)       |&lt;br/&gt; &lt;br/&gt;2. 微服务拆分 &lt;br/&gt;```mermaid &lt;br/&gt;graph TD&lt;br/&gt;    A[API Gateway] --&amp;gt; B[挂号核心服务]&lt;br/&gt;    A --&amp;gt; C[号源管理服务]&lt;br/&gt;    A --&amp;gt; D[支付对账服务]&lt;br/&gt;    A --&amp;gt; E[AI分诊服务]&lt;br/&gt;    B --&amp;gt; F[患者档案服务]&lt;br/&gt;    C --&amp;gt; G[排班规则引擎]&lt;br/&gt;```&lt;br/&gt; &lt;br/&gt;---&lt;br/&gt; &lt;br/&gt; &lt;br/&gt;2. 号源库存管理（分布式锁方案）&lt;br/&gt;&lt;br/&gt; &lt;br/&gt;---&lt;br/&gt; &lt;br/&gt;三、关键技术创新点&lt;br/&gt;1. 动态号源分配算法&lt;br/&gt;&lt;br/&gt; &lt;br/&gt;2. 熔断降级策略 &lt;br/&gt;```mermaid&lt;br/&gt;graph LR &lt;br/&gt;    A[挂号请求] --&amp;gt; B{响应时间&amp;gt;500ms?}&lt;br/&gt;    B --&amp;gt;|是| C[返回缓存中的默认排班]&lt;br/&gt;    B --&amp;gt;|否| D[正常流程]&lt;br/&gt;    C --&amp;gt; E[异步补偿更新缓存]&lt;br/&gt;```&lt;br/&gt; &lt;br/&gt;---&lt;br/&gt; &lt;br/&gt;四、安全与合规设计&lt;br/&gt;1. 隐私保护  &lt;br/&gt;   - 患者数据脱敏处理（符合《医疗卫生机构网络安全管理办法》）&lt;br/&gt;   - 使用国密SM4加密传输病历索引信息 &lt;br/&gt; &lt;br/&gt;2. 灾备方案  &lt;br/&gt;   - 双活数据中心部署（RPO&amp;lt;15秒，RTO&amp;lt;5分钟）&lt;br/&gt;   - 挂号流水号采用Snowflake算法（避免集群冲突）&lt;br/&gt; &lt;br/&gt;---&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="-167" width="880" height="1020" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
