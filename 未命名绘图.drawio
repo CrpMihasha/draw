@@ -96,6 +96,41 @@
         <mxCell id="B5VnDgvlrZ_svnyBIYC8-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
           <mxGeometry x="-1190" y="940" width="490" height="8" as="geometry" />
         </mxCell>
+        <mxCell id="B5VnDgvlrZ_svnyBIYC8-30" value="LOCK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-320" y="760" width="100" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="B5VnDgvlrZ_svnyBIYC8-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="B5VnDgvlrZ_svnyBIYC8-30">
+          <mxGeometry x="45" y="70" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="B5VnDgvlrZ_svnyBIYC8-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="B5VnDgvlrZ_svnyBIYC8-30">
+          <mxGeometry x="50" y="160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B5VnDgvlrZ_svnyBIYC8-37" value="更新房费、押金状态" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="B5VnDgvlrZ_svnyBIYC8-36" parent="B5VnDgvlrZ_svnyBIYC8-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5VnDgvlrZ_svnyBIYC8-31" value="WX" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-110" y="760" width="100" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="B5VnDgvlrZ_svnyBIYC8-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="B5VnDgvlrZ_svnyBIYC8-31">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B5VnDgvlrZ_svnyBIYC8-33" value="每10s查10分钟内未结束的单" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="B5VnDgvlrZ_svnyBIYC8-31">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-260" y="850" as="sourcePoint" />
+            <mxPoint x="-180" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B5VnDgvlrZ_svnyBIYC8-35" value="返回订单状态" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="B5VnDgvlrZ_svnyBIYC8-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="890" as="sourcePoint" />
+            <mxPoint x="-160" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
