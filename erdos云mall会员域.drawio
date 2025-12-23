@@ -59,9 +59,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9mIc2DPoaPCg6mQE5HZG-11" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="90" width="300" x="260" y="580" as="geometry" />
+          <mxGeometry height="90" width="300" x="264" y="584.5" as="geometry" />
         </mxCell>
-        <mxCell id="9mIc2DPoaPCg6mQE5HZG-4" parent="9mIc2DPoaPCg6mQE5HZG-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="db交互+DTO+本地缓存+回调" vertex="1">
+        <mxCell id="9mIc2DPoaPCg6mQE5HZG-4" parent="9mIc2DPoaPCg6mQE5HZG-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DTO+本地缓存+回调" vertex="1">
           <mxGeometry height="30" width="180" as="geometry" />
         </mxCell>
         <mxCell id="HZP1waPExb5Zlzk7aLmP-6" parent="9mIc2DPoaPCg6mQE5HZG-11" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;rmall-universal-adapter-service-domain&lt;/pre&gt;&lt;/div&gt;" vertex="1">
