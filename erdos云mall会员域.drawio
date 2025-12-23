@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="gxbGnYQUmX2yMUZc4bIT">
-    <mxGraphModel dx="1595" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1869" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HZP1waPExb5Zlzk7aLmP-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;rmall-universal-adapter-service-interfaces&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="310" x="-18" y="700" as="geometry" />
+          <mxGeometry height="60" width="310" x="120" y="850" as="geometry" />
         </mxCell>
         <mxCell id="HZP1waPExb5Zlzk7aLmP-12" edge="1" parent="1" source="HZP1waPExb5Zlzk7aLmP-11" style="endArrow=classic;html=1;rounded=0;exitX=0.606;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -53,7 +53,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HZP1waPExb5Zlzk7aLmP-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;rmall-universal-adapter-service-common&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="276" x="354" y="700" as="geometry" />
+          <mxGeometry height="60" width="276" x="364" y="760" as="geometry" />
         </mxCell>
         <mxCell id="HZP1waPExb5Zlzk7aLmP-14" edge="1" parent="1" source="HZP1waPExb5Zlzk7aLmP-13" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -61,8 +61,32 @@
             <mxPoint x="370" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HZP1waPExb5Zlzk7aLmP-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;Courier New&#39;,monospace;font-size:9.8pt;&quot;&gt;对外远程调用代理层&lt;/pre&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="190" y="450" as="geometry" />
+        <mxCell id="9mIc2DPoaPCg6mQE5HZG-2" edge="1" parent="1" source="HZP1waPExb5Zlzk7aLmP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HZP1waPExb5Zlzk7aLmP-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HZP1waPExb5Zlzk7aLmP-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;&lt;pre style=&quot;font-family:&#39;Courier New&#39;,monospace;font-size:9.8pt;&quot;&gt;对外远程调用代理层，interface的具体实现&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="200" x="30" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="9mIc2DPoaPCg6mQE5HZG-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="入参出参实例+抽象接口" vertex="1">
+          <mxGeometry height="30" width="130" x="-50" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="9mIc2DPoaPCg6mQE5HZG-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="通用工具类+restTemplate+http状态类" vertex="1">
+          <mxGeometry height="30" width="230" x="480" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="9mIc2DPoaPCg6mQE5HZG-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="db交互+DTO+本地缓存+回调" vertex="1">
+          <mxGeometry height="30" width="180" x="110" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="9mIc2DPoaPCg6mQE5HZG-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;rmall-universal-adapter-service-repository&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="310" x="-150" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="9mIc2DPoaPCg6mQE5HZG-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="HZP1waPExb5Zlzk7aLmP-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-10" y="730" as="sourcePoint" />
+            <mxPoint x="-170" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9mIc2DPoaPCg6mQE5HZG-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="应用入口" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
