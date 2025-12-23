@@ -91,7 +91,7 @@
         <mxCell id="HZP1waPExb5Zlzk7aLmP-11" parent="9mIc2DPoaPCg6mQE5HZG-14" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;rmall-universal-adapter-service-interfaces&lt;/pre&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="310" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="9mIc2DPoaPCg6mQE5HZG-1" parent="9mIc2DPoaPCg6mQE5HZG-14" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="入参出参实例+抽象接口" vertex="1">
+        <mxCell id="9mIc2DPoaPCg6mQE5HZG-1" parent="9mIc2DPoaPCg6mQE5HZG-14" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="入参出参实例+远程调用抽象接口" vertex="1">
           <mxGeometry height="30" width="130" x="110" as="geometry" />
         </mxCell>
       </root>
