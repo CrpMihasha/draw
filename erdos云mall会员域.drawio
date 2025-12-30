@@ -119,7 +119,7 @@
           <mxGeometry height="30" width="60" x="-430" y="90" as="geometry" />
         </mxCell>
         <mxCell id="OEf4CyOHqARs-TlDowX4-15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;APP &lt;span style=&quot;color: #9cdcfe;&quot;&gt;首页弹窗模块&lt;/span&gt;&lt;/div&gt;&lt;div&gt;CPS 余额相关接口&lt;/div&gt;&lt;div&gt;CPS 店铺相关接口&lt;/div&gt;&lt;div&gt;CPS 顾客关系模块&lt;/div&gt;&lt;div&gt;Cps 等级权益相关接口&lt;/div&gt;&lt;div&gt;会员相关模块&lt;/div&gt;&lt;div&gt;内部接口模块&lt;/div&gt;&lt;div&gt;协议管理模块&lt;/div&gt;&lt;div&gt;帮助中心模块&lt;/div&gt;&lt;div&gt;开屏推广模块&lt;/div&gt;&lt;div&gt;推荐管理&lt;/div&gt;&lt;div&gt;收货地址模块&lt;/div&gt;&lt;div&gt;用户反馈模块&lt;/div&gt;&lt;div&gt;用户发票抬头管理&lt;/div&gt;&lt;div&gt;用户模块&lt;/div&gt;&lt;div&gt;用户注销模块&lt;/div&gt;&lt;div&gt;登录认证模块&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-625" y="205" as="geometry" />
+          <mxGeometry height="380" width="150" x="-660" y="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
