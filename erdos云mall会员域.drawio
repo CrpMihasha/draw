@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="gxbGnYQUmX2yMUZc4bIT">
     <mxGraphModel dx="1869" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,6 +93,33 @@
         </mxCell>
         <mxCell id="9mIc2DPoaPCg6mQE5HZG-1" parent="9mIc2DPoaPCg6mQE5HZG-14" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="入参出参实例+远程调用抽象接口" vertex="1">
           <mxGeometry height="30" width="130" x="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OEf4CyOHqARs-TlDowX4-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="rmall-universal-adapter-service" vertex="1">
+          <mxGeometry height="70" width="250" x="-360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OEf4CyOHqARs-TlDowX4-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="tx-promote-member-service&lt;div&gt;会员积分、等级、权益处理，提供三方调用&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="250" x="-360" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="OEf4CyOHqARs-TlDowX4-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="tx-user-base-service&lt;div&gt;收货地址、用户信息维护、注册、登录鉴权、退出登录、用户反馈、发票抬头管理&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="250" x="-360" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="OEf4CyOHqARs-TlDowX4-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="tx-account-service&lt;div&gt;积分类型、积分账户管理（创建、冻结、解冻、核销、充值、退款..）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="250" x="-360" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OEf4CyOHqARs-TlDowX4-16" edge="1" parent="1" source="OEf4CyOHqARs-TlDowX4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OEf4CyOHqARs-TlDowX4-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OEf4CyOHqARs-TlDowX4-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="rmall-user-portal" vertex="1">
+          <mxGeometry height="70" width="250" x="-360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OEf4CyOHqARs-TlDowX4-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="rmall-user-admin&lt;div&gt;APP浮窗配置、CPS等级、CPS账户、CPS配置、任务、会员中心装修、会员等级管理、权益模板管理、积分商城管理、积分抵扣管理、积分明细管理、积分管理、协议弹窗、协议、客户信息、导航、帮助中心、开屏推广、账号注、浮窗配置、用户反馈&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="250" x="-360" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="OEf4CyOHqARs-TlDowX4-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="微信支付信息" vertex="1">
+          <mxGeometry height="30" width="60" x="-430" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OEf4CyOHqARs-TlDowX4-15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;APP &lt;span style=&quot;color: #9cdcfe;&quot;&gt;首页弹窗模块&lt;/span&gt;&lt;/div&gt;&lt;div&gt;CPS 余额相关接口&lt;/div&gt;&lt;div&gt;CPS 店铺相关接口&lt;/div&gt;&lt;div&gt;CPS 顾客关系模块&lt;/div&gt;&lt;div&gt;Cps 等级权益相关接口&lt;/div&gt;&lt;div&gt;会员相关模块&lt;/div&gt;&lt;div&gt;内部接口模块&lt;/div&gt;&lt;div&gt;协议管理模块&lt;/div&gt;&lt;div&gt;帮助中心模块&lt;/div&gt;&lt;div&gt;开屏推广模块&lt;/div&gt;&lt;div&gt;推荐管理&lt;/div&gt;&lt;div&gt;收货地址模块&lt;/div&gt;&lt;div&gt;用户反馈模块&lt;/div&gt;&lt;div&gt;用户发票抬头管理&lt;/div&gt;&lt;div&gt;用户模块&lt;/div&gt;&lt;div&gt;用户注销模块&lt;/div&gt;&lt;div&gt;登录认证模块&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-625" y="205" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
